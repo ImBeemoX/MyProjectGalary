@@ -1,12 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Project from './components/project';
+import reactlogo from './logos/React.png'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header>
+       <Project title = "haha" lang = "React" description = "haha" image = {reactlogo}/>
+       <Project title = "haha" lang = "React" description = "haha" image = {reactlogo}/>
+       <Project title = "haha" lang = "React" description = "haha" image = {reactlogo}/>
+       <Project title = "haha" lang = "React" description = "haha" image = {reactlogo}/>
+       <Project title = "haha" lang = "React" description = "haha" image = {reactlogo}/>
+       <Project title = "haha" lang = "React" description = "haha" image = {reactlogo}/>
+       
        
       </header>
     </div>
