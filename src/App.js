@@ -7,7 +7,7 @@ import Introduction from './components/Introduction'
 function App() {
   return (
     <div className="App">
-       <img className = "icon" src = {mylogo}/>
+       
        <Introduction/>
        <Projects/>
     </div>
