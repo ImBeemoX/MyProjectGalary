@@ -3,7 +3,7 @@ import React from 'react';
 import Project from './project';
 import reactlogo from '../logos/React.png'
 
-const projects = () => {
+const Projects = () => {
     console.log("asd")
     return(
         <li className = "li"> 
@@ -17,4 +17,4 @@ const projects = () => {
     )
 }
 
-export default projects
+export default Projects

@@ -21,9 +21,11 @@
 }
 
 .li {
-  list-style-type: none;
-  margin-left: 20px;
-  margin-right: 20px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
 }
 
 .Image {
@@ -125,4 +127,16 @@
 .hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
+}
+
+.introduction{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.introduction-font{
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: gray;
 }
