@@ -8,8 +8,9 @@ import Navigationbar from './components/navigationbar'
 function App() {
   return (
     <div className="App">
-      <img className = "icon" src = {mylogo}/>
+      
        <Navigationbar/>
+       <img className = "icon" src = {mylogo}/>
        <Introduction/>
        <Projects/>
     </div>

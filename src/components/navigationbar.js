@@ -4,9 +4,11 @@ import '../App.css'
 const Navigationbar = () => {
     return(
        <div className = "navigationabr">
-           <button variant="outline-primary">Github</button>
-           <button variant="outline-primary">Contact me</button>
-           <button variant="outline-primary">Linkedin</button>
+           
+           <button className = "navigationbuttons" variant="outline-primary">Github</button>
+           <button className = "navigationbuttons" variant="outline-primary">Contact me</button>
+           <button className = "navigationbuttons" variant="outline-primary">Linkedin</button>
+           
        </div>
     )
 }
