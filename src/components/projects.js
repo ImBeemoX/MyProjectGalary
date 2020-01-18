@@ -49,7 +49,7 @@ const Projects = () => {
         image={reactlogo}
       />
       <Project
-        title="Zombie"
+        title="Zombies"
         lang="Java Android framework"
         description="An app designed for searching league of legends informations"
         image={reactlogo}
